@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Roboto:300,400,500,700,900&amp;display=swap");
+
+.btn-small:hover {
+  color: black;
+}
+
+#home-heading {
+    position: relative;
+    min-height: 20rem;
+    background: url("./Assets/Logos/collage.jpeg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+
+h1,
+h4 {
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+  line-height: 1.2em;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+#main-video p {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+#main-video h4 {
+    font-weight: 500;
+}
+
+#home-heading h1 {
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.wrap {
+  padding: 0;
+}
+
+@media (max-width: 767.98px) {
+  .wrap {
+    margin-top: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .wrap .about-desc {
+    position: relative;
+  }
+}
+
+.wrap .about-desc .bold-text {
+  position: absolute;
+  top: -100px;
+  left: 10px;
+  right: 0;
+  bottom: 0;
+  font-weight: 700 !important;
+  color: rgba(0, 0, 0, 0.08);
+  text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+  .wrap .about-desc .bold-text {
+    font-size: 6em;
+  }
+}
+
+@media (max-width: 991px) {
+  .wrap .about-desc .bold-text {
+    display: none;
+  }
+}
+
+#main-video {
+    background-image: linear-gradient(to bottom right, rgb(109, 153, 236), rgb(118, 248, 198));
+    position: relative;
+}
+
+#projects {
+    margin-top: 3rem;
+}
+
+.collage {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.video-container{
+  padding-top: 4%;
+  padding-bottom: 38rem;
+  margin-top: 3rem;
+}
+
+.grid {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.custom-shape-divider-top-1601539401 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1601539401 svg {
+    position: relative;
+    display: block;
+    width: calc(142% + 1.3px);
+    height: 101px;
+}
+
+.custom-shape-divider-top-1601539401 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.custom-shape-divider-bottom-1601404197 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.custom-shape-divider-bottom-1601404197 svg {
+    position: relative;
+    display: block;
+    width: calc(132% + 1.3px);
+    height: 225px;
+} 
+
+.bottom-container{
+  bottom: 0;
+  top: 0;
+  position: relative;
+  height: 100%;
+}
+
+.ts-image {
+    margin-top: 5px;
+    height: 3.5rem;
+}
+
+.header {
+    margin: 0 10%;
+}
+
+.collage {
+    height: 25rem;
+}
+
+#info p{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.card-title {
+    color: rgb(90, 86, 86);
+    text-align: center;
+}
+
+#main-footer p {
+    color: rgb(90, 86, 86);
+}
+
+#main-footer a {
+  color: rgb(90, 86, 86);
+}
